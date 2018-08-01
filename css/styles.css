@@ -1,3 +1,10 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /***************************
 Nav and Footer bar
 ***************************/
@@ -81,20 +88,20 @@ footer li {
 
 
 /***************************
-Header and search section
+Header and Main
 ****************************/
 
-#logo-section, #search-section, #search-btns {
+main, .search-btns {
   width: 100%;
 }
 
-#logo-section img {
+.header-logo {
   height: 92px;
   width: 272px;
   padding-top: 150px;
 }
 
-#search-form-div {
+.search-form-div {
   height: 44px;
   width: 440px;
   box-shadow: 1px 1px 1px 1px rgb(200, 200, 200, 0.85);
@@ -102,7 +109,7 @@ Header and search section
   margin-top: 25px;
 }
 
-#search-box {
+.search-box {
   height: 30px;
   width: 375px;
   line-height: 34px;
@@ -113,7 +120,7 @@ Header and search section
   margin: 8px 0 0 0;
 }
 
-#microphone {
+.microphone {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat -3px 0;
   background-size: 25px 25px;
   background-position: center;
@@ -122,12 +129,12 @@ Header and search section
   float: right;
 }
 
-#search-btns {
+.search-btns {
   margin: 17px 0 0 0px;
   text-align: center;
 }
 
-#search-btns input {
+.search-btns input {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -144,15 +151,8 @@ Header and search section
     height: 36px;
 }
 
-#search-btns input:hover {
+.search-btns input:hover {
   border: 1px solid #c6c6c6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
   color: #222;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
