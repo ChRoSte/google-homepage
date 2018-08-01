@@ -1,15 +1,80 @@
-#logo-section {
+/***************************
+Nav bar
+***************************/
+
+nav {
+  height: 25px;
+}
+
+nav ul {
+  margin-top: -2px;
+  margin-left: 18px;
+  margin-right: 12px;
+  padding: 0px;
+  font-family: "aerial", sans-serif;
+  font-size: 13px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 0px 7px;
+  margin-top: 6px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav li:nth-of-type(3) {
+  margin-top: 0;
+}
+
+nav li img {
+  height: 18px;
+  opacity: 0.55;
+  vertical-align: middle;
+}
+
+nav li button {
+  background-color: rgb(66, 133, 244);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  border: none;
+  line-height: 28px;
+  padding: 1px 12px 2px 12px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.left-nav {
+  float: left;
+}
+
+.right-nav {
+  float: right;
+}
+
+
+/***************************
+Header and search section
+****************************/
+
+#logo-section, #search-section, #search-btns {
   width: 100%;
 }
 
 #logo-section img {
   height: 92px;
   width: 272px;
-  padding-top: 109px;
-}
-
-#search-section {
-  width: 100%;
+  padding-top: 150px;
 }
 
 #search-form-div {
@@ -41,7 +106,6 @@
 }
 
 #search-btns {
-  width: 100%;
   margin: 17px 0 0 0px;
   text-align: center;
 }
@@ -74,8 +138,4 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.clear {
-  float: none;
 }
