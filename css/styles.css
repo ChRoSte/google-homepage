@@ -1,12 +1,12 @@
 /***************************
-Nav bar
+Nav and Footer bar
 ***************************/
 
 nav {
   height: 25px;
 }
 
-nav ul {
+nav ul, footer ul {
   margin-top: -2px;
   margin-left: 18px;
   margin-right: 12px;
@@ -15,19 +15,19 @@ nav ul {
   font-size: 13px;
 }
 
-nav li {
+nav li, footer li {
   display: inline;
   list-style: none;
   padding: 0px 7px;
   margin-top: 6px;
 }
 
-nav li a {
+nav li a, footer li a {
   text-decoration: none;
   color: inherit;
 }
 
-nav li a:hover {
+nav li a:hover, footer li a:hover {
   text-decoration: underline;
 }
 
@@ -54,12 +54,29 @@ nav li button {
   margin-left: 10px;
 }
 
-.left-nav {
+.left-nav, .left-foot {
   float: left;
 }
 
-.right-nav {
+.right-nav, .right-foot {
   float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer ul {
+  position: relative;
+  margin-right: 16px;
+}
+
+footer li {
+  margin-bottom: 14px;
+  margin-right: 18px;
+  color: rgb(102, 102, 102);
 }
 
 
